@@ -4,3 +4,45 @@
     box-sizing: border-box;
 }
 
+.contenitore-header{
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    
+}
+
+button{
+    background-color: gray;
+    color: white;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.contenitore-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+img{
+    height: 200px;
+    width: 100%;
+}
+
+.cam{
+    height: 100px;
+    width: 200px;
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: white;
+}
